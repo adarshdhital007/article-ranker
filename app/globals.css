@@ -1,0 +1,30 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "font-awesome/css/font-awesome.css";
+
+@media (max-width: 325px) {
+  .card-title p {
+    font-size: 25px;
+  }
+  .container {
+    padding: 5px;
+  }
+
+  .col-md-4 {
+    width: 100%;
+  }
+
+  .col-md-8 {
+    width: 100%;
+  }
+
+  .card {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 5px 3px;
+    border-radius: 5px;
+    margin: 1px;
+  }
+}
